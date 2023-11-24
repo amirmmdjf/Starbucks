@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+    }
+
+    body {
+        overflow-x: hidden
+    }
+    /* .header{
+        display: none!important;
+    } */
+
+    h1 {
+        @apply text-2xl;
+    }
+
+    h2 {
+        @apply text-xl;
+    }
+
+    a {
+        @apply text-sm
+    }
+
+    .item-hover:hover {
+        color: #00754a;
+        transition: 0.2s;
+    }
+
+    .btn {
+        @apply font-semibold border border-black py-[5px] px-3 rounded-3xl
+    }
+
+    /* .box {
+        @apply w-5/5 h-[625px] mt-5 px-6 flex justify-center items-end text-white
+    } */
+
+    .box {
+        @apply h-[625px] mt-5 px-6 flex justify-center items-end text-white max-xl:px-0 max-sm:h-[620px] max-sm:mt-16;
+    }
+
+    .title {
+        @apply text-[50px] tracking-wider text-center leading-tight max-sm:text-[28px] 
+    }
+
+    .parag {
+        @apply text-center mt-5 text-2xl tracking-normal leading-9 font-[500] max-sm:text-[18px] max-xl:text-center
+    }
+
+    .link {
+        @apply mt-5 border px-[16px] py-[5px] text-base rounded-3xl transition duration-200;
+    }
+
+    .link:hover {
+        background-color: rgb(0, 0, 0, 0.2);
+    }
+
+    .footer-col {
+        width: 190px;
+        height: 388px;
+    }
+
+    .title-footer__col {
+        color: rgba(0, 0, 0, .87);
+        font-size: 19px;
+    }
+
+    .ul-box li {
+        margin-top: 28px;
+        color: rgba(0, 0, 0, .58);
+    }
+
+    .ul-box a {
+        font-size: 16px;
+        transition: 0.3s;
+        letter-spacing: 0.2px;
+    }
+
+    .ul-box a:hover {
+        color: #000;
+    }
+
+
+
+    .openBox li{
+        @apply pt-6 	
+    }
+    .openBox a{
+        @apply text-[18px] 	
+    }
+
+
+}
