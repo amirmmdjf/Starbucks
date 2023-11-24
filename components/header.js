@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Link from "next/link";
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(true);
@@ -31,7 +32,7 @@ const Header = () => {
     return (
         <header className="w-5/5 h-24 text-gray-900 flex tracking-wider shadow shadow-gray-300 max-sm:h-20 max-sm:items-center">
             <div className="w-36 h-24  flex pl-10  max-lg:pl-3">
-                <a href="#" className="flex items-center  ">
+                <Link href="#" className="flex items-center  ">
                     <svg className="" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="275.991 555.002 297.474 299">
                         <title>Starbucks Corporation Logo</title>
                         <path
@@ -50,7 +51,7 @@ const Header = () => {
                         </g>
                     </svg>
 
-                </a>
+                </Link>
 
             </div>
             <div className="w-full h-24  flex justify-between">
@@ -58,19 +59,19 @@ const Header = () => {
                     <div className="w-[270px]">
                         <ul className="flex items-center justify-between h-24 w-5/5 font-bold">
                             <li>
-                                <a href="/" className="item-hover">
+                                <Link href="/" className="item-hover">
                                     MENU
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="/" className="item-hover">
+                                <Link href="/" className="item-hover">
                                     REWARDS
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="/" className="item-hover">
+                                <Link href="/" className="item-hover">
                                     GIFT CARDS
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </div>
@@ -79,7 +80,7 @@ const Header = () => {
                 {menuOpen ? (
                     <div className="flex items-center w-[450px] h-24 pl-10">
                         <div className="w-32 h-24 mr-10 flex items-center font-bold">
-                            <a href="/" className="item-hover flex">
+                            <Link href="/" className="item-hover flex">
                                 <svg
                                     className="mr-1"
                                     xmlns="http://www.w3.org/2000/svg"
@@ -91,14 +92,14 @@ const Header = () => {
                                     <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
                                 </svg>
                                 Find a store
-                            </a>
+                            </Link>
                         </div>
-                        <a href="/" className="btn mr-4 hover:bg-gray-300">
+                        <Link href="/" className="btn mr-4 hover:bg-gray-300">
                             sign in
-                        </a>
-                        <a href="/" className="btn bg-black text-white hover:bg-black/80">
+                        </Link>
+                        <Link href="/" className="btn bg-black text-white hover:bg-black/80">
                             join now
-                        </a>
+                        </Link>
                     </div>
                 ) : (
                     <div className="w-full h-[88px] flex justify-end pr-7">
@@ -135,39 +136,39 @@ const Header = () => {
                                 <div className="absolute openBox max-sm:h-[440px] max-sm:w-3/5 h-[400px] w-4/5 shadow-2xl rounded-b-xl border mt-[88px] bg-white z-10">
                                     <ul className="flex flex-col items-center justify-between h-24 w-5/5 font-bold">
                                         <li>
-                                            <a href="/" className="item-hover">
+                                            <Link href="/" className="item-hover">
                                                 MENU
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a href="/" className="item-hover">
+                                            <Link href="/" className="item-hover">
                                                 REWARDS
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a href="/" className="item-hover">
+                                            <Link href="/" className="item-hover">
                                                 GIFT CARDS
-                                            </a>
+                                            </Link>
                                         </li>
                                         <div className="w-4/5 border mt-5"></div>
                                         <li className="mt-[-20px]">
                                             <div className="max-sm:flex flex-col items-center justify-center mb-[-12px]">
-                                                <a
+                                                <Link
                                                     href="/"
                                                     className="btn sm:mr-4 hover:bg-gray-300 text-center"
                                                 >
                                                     sign in
-                                                </a>
-                                                <a
+                                                </Link>
+                                                <Link
                                                     href="/"
                                                     className="btn max-sm:mt-2 bg-black text-white hover:bg-black/80"
                                                 >
                                                     join now
-                                                </a>
+                                                </Link>
                                             </div>
                                         </li>
                                         <li className="">
-                                            <a href="/" className="item-hover flex">
+                                            <Link href="/" className="item-hover flex">
                                                 <svg
                                                     className="mr-1"
                                                     xmlns="http://www.w3.org/2000/svg"
@@ -179,7 +180,7 @@ const Header = () => {
                                                     <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
                                                 </svg>
                                                 Find a store
-                                            </a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>
