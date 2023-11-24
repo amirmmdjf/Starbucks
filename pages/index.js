@@ -7,6 +7,7 @@ import thirdImage from '../assets/3.png'
 import fourthImage from '../assets/4.jpg'
 import fifthImage from '../assets/5.jpg'
 import Footer from '@/components/footer'
+import Link from 'next/link'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -40,9 +41,9 @@ export default function Home() {
                 Rewards. You’ll save time with easy mobile ordering and <br className='max-lg:hidden' />
                 earn free favorites.*</p>
 
-              <a className='link' href="/">
+              <Link className='link' href="/">
                 Join for free
-              </a>
+              </Link>
 
             </div>
           </div>
@@ -58,9 +59,9 @@ export default function Home() {
                 Peppermint Mocha, Iced Sugar Cookie <br className='max-lg:hidden' />
                 Almondmilk Latte or Caramel Brulée Latte.
               </p>
-              <a className='link' href="/">
+              <Link className='link' href="/">
                 Find your favorite
-              </a>
+              </Link>
             </div>
 
             <div className='w-6/12 h-full flex items-center max-sm:w-auto'>
@@ -89,13 +90,13 @@ export default function Home() {
               <h1 className='title'>Gingerbread meets <br className='max-lg:hidden' />chai</h1>
               <p className='parag'>
                 Say hello to the festive new Iced Gingerbread <br className='max-lg:hidden' />
-                Oatmilk Chai. It's the beloved flavor of <br className='max-lg:hidden' />
+                Oatmilk Chai. Its the beloved flavor of <br className='max-lg:hidden' />
                 gingerbread with a twist. Here for a limited <br className='max-lg:hidden' />
                 time.
               </p>
-              <a className='link' href="/">
+              <Link className='link' href="/">
                 Order now
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -109,9 +110,9 @@ export default function Home() {
                 Our Gingerbread Loaf with citrusy icing pairs<br className='max-lg:hidden' />
                 deliciously with coffee.
               </p>
-              <a className='link' href="/">
+              <Link className='link' href="/">
                 Order now
-              </a>
+              </Link>
             </div>
             <div className='w-6/12 h-full flex items-center max-sm:w-[auto]'>
               <Image
@@ -142,9 +143,9 @@ export default function Home() {
                 Starbucks® Christmas Blend 2023 with rare <br className='max-lg:hidden' />
                 aged Sumatra.
               </p>
-              <a className='link' href="/">
+              <Link className='link' href="/">
                 Order now
-              </a>
+              </Link>
             </div>
           </div>
         </div>
