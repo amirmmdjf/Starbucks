@@ -5,6 +5,7 @@ import pinterest from '../icons/pinterest.png'
 import instagram from '../icons/instagram.png'
 import youtube from '../icons/youtube.png'
 import twitter from '../icons/twitter.png'
+import Link from "next/link";
 
 const Footer = () => {
 
@@ -17,25 +18,25 @@ const Footer = () => {
                     <h3 className="title-footer__col">About Us</h3>
                     <ul className="ul-box">
                         <li>
-                            <a href="/">Our Company</a>
+                            <Link href="/">Our Company</Link>
                         </li>
                         <li>
-                            <a href="/">Our Coffee</a>
+                            <Link href="/">Our Coffee</Link>
                         </li>
                         <li>
-                            <a href="/">Stories and News</a>
+                            <Link href="/">Stories and News</Link>
                         </li>
                         <li>
-                            <a href="/">Starbucks Archive</a>
+                            <Link href="/">Starbucks Archive</Link>
                         </li>
                         <li>
-                            <a href="/">Investor Relations</a>
+                            <Link href="/">Investor Relations</Link>
                         </li>
                         <li>
-                            <a href="/">Customer Service</a>
+                            <Link href="/">Customer Service</Link>
                         </li>
                         <li>
-                            <a href="/">Contact Us</a>
+                            <Link href="/">Contact Us</Link>
                         </li>
                     </ul>
                 </div>
@@ -43,22 +44,22 @@ const Footer = () => {
                     <h3 className="title-footer__col">Careers</h3>
                     <ul className="ul-box">
                         <li>
-                            <a href="/">Culture and Values</a>
+                            <Link href="/">Culture and Values</Link>
                         </li>
                         <li>
-                            <a href="/" className="leading-relaxed">Inclusion, Diversity, and Equity</a>
+                            <Link href="/" className="leading-relaxed">Inclusion, Diversity, and Equity</Link>
                         </li>
                         <li>
-                            <a href="/">College Achievement <br /> Plan</a>
+                            <Link href="/">College Achievement <br /> Plan</Link>
                         </li>
                         <li>
-                            <a href="/">Alumni Community</a>
+                            <Link href="/">Alumni Community</Link>
                         </li>
                         <li>
-                            <a href="/">U.S. Careers</a>
+                            <Link href="/">U.S. Careers</Link>
                         </li>
                         <li>
-                            <a href="/">International Careers</a>
+                            <Link href="/">International Careers</Link>
                         </li>
                     </ul>
                 </div>
@@ -66,13 +67,13 @@ const Footer = () => {
                     <h3 className="title-footer__col">Social Impact</h3>
                     <ul className="ul-box">
                         <li>
-                            <a href="/">People</a>
+                            <Link href="/">People</Link>
                         </li>
                         <li>
-                            <a href="/" className="leading-relaxed">Planet</a>
+                            <Link href="/" className="leading-relaxed">Planet</Link>
                         </li>
                         <li>
-                            <a href="/">Environmental and Social Impact Reporting</a>
+                            <Link href="/">Environmental and Social Impact Reporting</Link>
                         </li>
                     </ul>
                 </div>
@@ -80,16 +81,16 @@ const Footer = () => {
                     <h3 className="title-footer__col">For Business Partners</h3>
                     <ul className="ul-box">
                         <li>
-                            <a href="/">Landlord Support Center</a>
+                            <Link href="/">Landlord Support Center</Link>
                         </li>
                         <li>
-                            <a href="/" className="leading-relaxed">Suppliers</a>
+                            <Link href="/" className="leading-relaxed">Suppliers</Link>
                         </li>
                         <li>
-                            <a href="/">Corporate Gift Card Sales</a>
+                            <Link href="/">Corporate Gift Card Sales</Link>
                         </li>
                         <li>
-                            <a href="/">Office and Foodservice Coffee</a>
+                            <Link href="/">Office and Foodservice Coffee</Link>
                         </li>
                     </ul>
                 </div>
@@ -97,19 +98,19 @@ const Footer = () => {
                     <h3 className="title-footer__col">Order and Pick Up</h3>
                     <ul className="ul-box">
                         <li>
-                            <a href="/">Order on the App</a>
+                            <Link href="/">Order on the App</Link>
                         </li>
                         <li>
-                            <a href="/" className="leading-relaxed">Order on the Web</a>
+                            <Link href="/" className="leading-relaxed">Order on the Web</Link>
                         </li>
                         <li>
-                            <a href="/">Delivery</a>
+                            <Link href="/">Delivery</Link>
                         </li>
                         <li>
-                            <a href="/">Order and Pick Up Options</a>
+                            <Link href="/">Order and Pick Up Options</Link>
                         </li>
                         <li>
-                            <a href="/">Explore and Find Coffee for Home</a>
+                            <Link href="/">Explore and Find Coffee for Home</Link>
                         </li>
                     </ul>
                 </div>
@@ -120,34 +121,34 @@ const Footer = () => {
             <div className="flex flex-col pl-3">
 
                 <div className="flex justify-between w-[280px] py-8 pb-3 ">
-                    <a href="/"><Image src={spotify} width={32} /></a>
-                    <a href="/"><Image src={facebook} width={32} /></a>
-                    <a href="/"><Image src={pinterest} width={32} /></a>
-                    <a href="/"><Image src={instagram} width={32} /></a>
-                    <a href="/"><Image src={youtube} width={32} /></a>
-                    <a href="/"><Image src={twitter} width={32} /></a>
+                    <Link href="/"><Image src={spotify} width={32} /></Link>
+                    <Link href="/"><Image src={facebook} width={32} /></Link>
+                    <Link href="/"><Image src={pinterest} width={32} /></Link>
+                    <Link href="/"><Image src={instagram} width={32} /></Link>
+                    <Link href="/"><Image src={youtube} width={32} /></Link>
+                    <Link href="/"><Image src={twitter} width={32} /></Link>
                 </div>
 
                 <div className="pb-5">
                     <ul className="flex tracking-wide pb-3 text-darkGray text-[24px]">
                         <li>
-                            <a className={aTagBottom} href="">Privacy Notice</a>
+                            <Link className={aTagBottom} href="">Privacy Notice</Link>
                         </li>
                         <li>
                             <span className="px-4">|</span>
-                            <a className={aTagBottom} href="/">Terms of Use</a>
+                            <Link className={aTagBottom} href="/">Terms of Use</Link>
                         </li>
                         <li>
                             <span className="px-4">|</span>
-                            <a className={aTagBottom} href="/">Do Not Share My Personal Information</a>
+                            <Link className={aTagBottom} href="/">Do Not Share My Personal Information</Link>
                         </li>
                         <li>
                             <span className="px-4">|</span>
-                            <a className={aTagBottom} href="/">CA Supply Chain Act</a>
+                            <Link className={aTagBottom} href="/">CA Supply Chain Act</Link>
                         </li>
                         <li>
                             <span className="px-4">|</span>
-                            <a className={aTagBottom} href="/">Cookie Preferences</a>
+                            <Link className={aTagBottom} href="/">Cookie Preferences</Link>
                         </li>
                     </ul>
                     <p className="text-sm tracking-wide	text-gray-500 pb-2">
