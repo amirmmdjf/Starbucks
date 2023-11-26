@@ -30,7 +30,7 @@ const Header = () => {
     };
 
     return (
-        <header className="w-5/5 h-24 text-gray-900 flex tracking-wider shadow shadow-gray-300 max-sm:h-20 max-sm:items-center">
+        <header className="max-w-full h-24 text-gray-900 flex tracking-wider shadow shadow-gray-300 max-sm:h-20 max-sm:items-center max-sm:w-[500px]">
             <div className="w-36 h-24  flex pl-10  max-lg:pl-3">
                 <Link href="#" className="flex items-center  ">
                     <svg className="" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="275.991 555.002 297.474 299">

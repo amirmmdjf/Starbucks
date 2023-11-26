@@ -9,11 +9,17 @@
     }
 
     body {
-        overflow-x: hidden
+        /* overflow-x: hidden */
+        overflow: -moz-scrollbars-vertical;
+
+        overflow-x: hidden;
+
+        overflow-y: scroll;
     }
-    /* .header{
-        display: none!important;
-    } */
+    #__next{
+        overflow-x: hidden;
+    }
+
 
     h1 {
         @apply text-2xl;
@@ -45,7 +51,7 @@
     }
 
     .title {
-        @apply text-[50px] tracking-wider text-center leading-tight max-sm:text-[28px] 
+        @apply text-[50px] tracking-wider text-center leading-tight max-sm:text-[28px]
     }
 
     .parag {
@@ -87,11 +93,12 @@
 
 
 
-    .openBox li{
-        @apply pt-6 	
+    .openBox li {
+        @apply pt-6
     }
-    .openBox a{
-        @apply text-[18px] 	
+
+    .openBox a {
+        @apply text-[18px]
     }
 
 
