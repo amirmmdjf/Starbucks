@@ -144,7 +144,7 @@ const Footer = () => {
 
             <div className="flex flex-col pl-3">
 
-                <div className="flex justify-between w-[280px] py-8 max-sm:px-4 pb-3 max-sm:w-full">
+                <div className="flex justify-between w-[280px] py-8 pb-3 max-sm:w-full">
                     <Link href="/"><Image src={spotify} width={36} /></Link>
                     <Link href="/"><Image src={facebook} width={36} /></Link>
                     <Link href="/"><Image src={pinterest} width={36} /></Link>
