@@ -26,7 +26,7 @@ export default function Home() {
 
         {/* First section */}
         <div className='w-full h-[459px] px-6 flex  max-xl:px-0 max-sm:h-[600px] max-sm:max-w-[500px] mt-5 text-center'>
-          <div className='w-full bg-pink h-[414px] bg-green-200 flex max-sm:flex-col max-sm:h-[550px]'>
+          <div className='w-full bg-pink h-[414px] bg-green-200 flex max-sm:flex-col max-sm:h-[550px] overflow-hidden'>
             <div className=' w-6/12 h-full flex items-center max-sm:items-start max-sm:w-auto max-sm:h-[300px]'>
               <Image
                 className='h-auto'
