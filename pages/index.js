@@ -51,7 +51,7 @@ export default function Home() {
         </div>
 
         {/* Second section */}
-        <div className='box  max-sm:mt-[70px]'>
+        <div className='box  max-sm:mt-[50px]'>
           <div className='w-full h-[618px] bg-green-200 flex  bg-green max-xl:px-0 max-sm:flex-col-reverse max-sm:h-[700px]'>
             <div className='w-6/12 h-full  flex flex-col justify-center items-center text-white font-semibold max-sm:w-full'>
               <h1 className='title'>Let’s celebrate</h1>
