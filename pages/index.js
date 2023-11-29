@@ -16,7 +16,7 @@ export default function Home() {
 
   return (
     <div>
-      
+
 
       {/* Header section */}
       <Header />
@@ -26,8 +26,8 @@ export default function Home() {
 
         {/* First section */}
         <div className='w-full h-[459px] px-6 flex  max-xl:px-0 max-sm:h-[600px] max-sm:max-w-[500px] mt-5 text-center'>
-          <div className='w-full bg-pink h-[414px] bg-green-200 flex max-sm:flex-col max-sm:h-[600px]'>
-            <div className='w-6/12 h-full flex items-center max-sm:w-auto max-sm:h-[300px]'>
+          <div className='w-full bg-pink h-[414px] bg-green-200 flex max-sm:flex-col max-sm:h-[550px]'>
+            <div className=' w-6/12 h-full flex items-center max-sm:items-start max-sm:w-auto max-sm:h-[300px]'>
               <Image
                 className='h-auto'
                 src={firstImage}
@@ -51,8 +51,8 @@ export default function Home() {
         </div>
 
         {/* Second section */}
-        <div className='box  max-sm:mt-[140px]'>
-          <div className='w-full h-[618px] bg-green-200 flex  bg-green max-xl:px-0 max-sm:flex-col-reverse max-sm:h-[730px]'>
+        <div className='box  max-sm:mt-[70px]'>
+          <div className='w-full h-[618px] bg-green-200 flex  bg-green max-xl:px-0 max-sm:flex-col-reverse max-sm:h-[700px]'>
             <div className='w-6/12 h-full  flex flex-col justify-center items-center text-white font-semibold max-sm:w-full'>
               <h1 className='title'>Let’s celebrate</h1>
               <p className='parag'>
@@ -65,7 +65,7 @@ export default function Home() {
               </Link>
             </div>
 
-            <div className='w-6/12 h-full flex items-center max-sm:w-auto'>
+            <div className='w-6/12 h-full flex items-center max-sm:items-start max-sm:w-auto'>
               <Image
                 className='h-auto'
                 src={secondImage}
@@ -77,9 +77,9 @@ export default function Home() {
         </div>
 
         {/* Third section */}
-        <div className='box  mt-[140px]'>
-          <div className='w-full h-[618px] flex bg-purple max-sm:flex-col max-sm:h-[730px] '>
-            <div className='w-6/12 h-full flex items-center max-sm:w-auto'>
+        <div className='box  mt-[100px]'>
+          <div className='w-full h-[618px] flex bg-purple max-sm:flex-col max-sm:h-[700px] '>
+            <div className='w-6/12 h-full flex items-center max-sm:items-start max-sm:w-auto'>
               <Image
                 className='h-auto'
                 src={thirdImage}
@@ -103,8 +103,8 @@ export default function Home() {
         </div>
 
         {/* Fourth section */}
-        <div className='box mt-[140px]'>
-          <div className='w-full h-[618px] flex bg-crimson max-sm:flex-col-reverse max-sm:h-[730px]'>
+        <div className='box mt-[100px]'>
+          <div className='w-full h-[618px] flex bg-crimson max-sm:flex-col-reverse max-sm:h-[700px]'>
             <div className='w-6/12 h-full flex flex-col justify-center items-center text-white font-semibold max-sm:w-full max-sm:px-2'>
               <h1 className='title'>Nicely spiced</h1>
               <p className='parag'>
@@ -115,7 +115,7 @@ export default function Home() {
                 Order now
               </Link>
             </div>
-            <div className='w-6/12 h-full flex items-center max-sm:w-[auto]'>
+            <div className='w-6/12 h-full flex items-center max-sm:items-start max-sm:w-[auto]'>
               <Image
                 className='h-auto'
                 src={fourthImage}
@@ -127,9 +127,9 @@ export default function Home() {
         </div>
 
         {/* Fifth section */}
-        <div className='box mt-[140px]'>
-          <div className='w-full h-[618px] flex bg-darkGreen max-sm:flex-col max-sm:h-[730px]'>
-            <div className='w-6/12 h-full flex items-center max-sm:w-auto'>
+        <div className='box mt-[100px]'>
+          <div className='w-full h-[618px] flex bg-darkGreen max-sm:flex-col max-sm:h-[700px]'>
+            <div className='w-6/12 h-full flex items-center max-sm:items-start max-sm:w-auto'>
               <Image
                 className='h-auto'
                 src={fifthImage}
