@@ -179,8 +179,7 @@ const Footer = () => {
                     }
 
                     <p className="text-sm tracking-wide	text-gray-500 pb-2 max-sm:text-center max-sm:mt-4">
-                        © Developed by <Link className="text-green hover:underline" href={'https://www.linkedin.com/in/amirmohammad-jafari-9052b7241/'} target="blank">Amirmohammad Jafari</Link>
-                        
+                        Developed by <Link className="text-green hover:underline" href={'https://www.linkedin.com/in/amirmohammad-jafari-9052b7241/'} target="blank">Amirmohammad Jafari</Link>
                     </p>
                 </div>
             </div>
